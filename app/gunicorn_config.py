@@ -1,7 +1,7 @@
 # Gunicorn configuration file
 
 # Bind address and port
-bind = "0.0.0.0:5000"
+bind = "0.0.0.0:5500"
 
 # Number of worker processes
 workers = 1

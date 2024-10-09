@@ -1,7 +1,7 @@
 import openai
 
 # Configure OpenAI client to use vLLM server
-openai.api_base = "http://127.0.0.1:5000"
+openai.api_base = "http://127.0.0.1:5500"
 openai.api_key = "dummy"  # vLLM doesn't require a real API key
 
 prompt = "วัดพระแก้ว กทม. เดินทางไปอย่างไร"
